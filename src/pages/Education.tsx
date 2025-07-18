@@ -1,4 +1,4 @@
-import React from "react";
+// React component
 import Aurora from "../components/Aurora";
 import { Meteors } from "../components/Meteors";
 import Lightning from "../components/Lighting";
@@ -8,9 +8,6 @@ import {
   FaGraduationCap,
   FaSchool,
   FaCode,
-  FaAward,
-  FaMedal,
-  FaLaptopCode,
   FaChalkboardTeacher,
   FaUserGraduate
 } from "react-icons/fa";

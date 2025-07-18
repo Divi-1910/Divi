@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
 // List of critical assets to preload
-const criticalAssets = [
+const criticalAssets: string[] = [
   // Add paths to critical images, fonts, etc.
 ];
 

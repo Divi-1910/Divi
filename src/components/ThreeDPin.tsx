@@ -58,8 +58,7 @@ export const PinContainer = ({
 };
 
 export const PinPerspective = ({
-  title,
-  href
+  title
 }: {
   title?: string;
   href?: string;

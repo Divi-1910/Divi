@@ -1,22 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { splitVendorChunkPlugin } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
   base: '/Divi/',
   plugins: [
-    react(),
-    splitVendorChunkPlugin()
+    react()
   ],
   build: {
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-      },
-    },
+    minify: true,
     rollupOptions: {
       output: {
         manualChunks: {

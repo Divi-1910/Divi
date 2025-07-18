@@ -214,17 +214,17 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
             <img
               className="avatar"
               src={avatarUrl}
-              alt={`${name || "User"} avatar`}
+              alt="User avatar"
               loading="lazy"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = fallbackAvatar;
+                target.src = avatarImage;
               }}
             />
           </div>
           <div className="pc-content">
             <div className="pc-details">
-              <h3>{name}</h3>
+              <h3>Divyansh Muley</h3>
             </div>
           </div>
         </div>

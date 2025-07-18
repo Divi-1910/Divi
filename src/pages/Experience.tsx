@@ -1,4 +1,4 @@
-import React from "react";
+// React component
 import Aurora from "../components/Aurora";
 import { Meteors } from "../components/Meteors";
 import Lightning from "../components/Lighting";
@@ -7,14 +7,10 @@ import { motion } from "framer-motion";
 import graasLogo from "../assets/graas_ai_logo.jpeg";
 import ewayLogo from "../assets/eway_it_icon.jpeg";
 import {
-  FaBriefcase,
   FaCode,
   FaLaptopCode,
   FaServer,
-  FaMobileAlt,
-  FaDatabase,
-  FaTools,
-  FaUsers
+  FaTools
 } from "react-icons/fa";
 
 function Experience() {

@@ -1,4 +1,4 @@
-import React from "react";
+// React component
 
 const LoadingSpinner = () => {
   return (
