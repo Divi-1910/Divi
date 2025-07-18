@@ -4,6 +4,8 @@ import { Meteors } from "../components/Meteors";
 import Lightning from "../components/Lighting";
 import { ExperienceTimeline } from "../components/ExperienceTimeline";
 import { motion } from "framer-motion";
+import graasLogo from "../assets/graas_ai_logo.jpeg";
+import ewayLogo from "../assets/eway_it_icon.jpeg";
 import {
   FaBriefcase,
   FaCode,
@@ -18,33 +20,33 @@ import {
 function Experience() {
   const ExperienceTimelineData = [
     {
-      title: "May 2023 - Aug 2023",
+      title: "July 2025 - Present",
       content: (
         <div className="bg-gradient-to-br from-gray-900 to-gray-950 rounded-xl p-6 border border-blue-500/20 shadow-xl hover:shadow-blue-500/30 transition-all duration-300 group relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-cyan-500 opacity-70"></div>
           <div className="flex items-start">
             <div className="flex-shrink-0 mr-4">
-              <div className="bg-gradient-to-br from-blue-600 to-cyan-500 p-3 rounded-xl shadow-lg flex items-center justify-center w-16 h-16">
+              <div className="bg-gradient-to-br from-blue-600 to-cyan-500 p-3 rounded-full shadow-lg flex items-center justify-center w-16 h-16">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg"
-                  alt="Amazon"
-                  className="w-10 h-10"
+                  src={graasLogo}
+                  alt="Graas"
+                  className="w-10 h-10 object-cover rounded-full"
                 />
               </div>
             </div>
             <div>
               <h3 className="text-white text-2xl font-bold mb-1 group-hover:text-blue-400 transition-colors">
-                Software Development Engineer Intern
+                Engineer - Product
               </h3>
               <h4 className="text-blue-400 text-xl mb-2">
-                Amazon Web Services (AWS)
+                Growth as a Service - Graas.ai
               </h4>
               <div className="flex flex-wrap items-center mb-4">
                 <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-medium mr-2 mb-2">
-                  Seattle, WA (Remote)
+                  Pune , MH (On-site)
                 </span>
                 <span className="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium mb-2">
-                  3 months
+                  Present
                 </span>
               </div>
             </div>
@@ -57,23 +59,18 @@ function Experience() {
             </h5>
             <ul className="text-white/70 text-base list-disc ml-5 space-y-2">
               <li>
-                Developed and implemented a high-performance microservice for
-                real-time data processing, reducing latency by 40%
+                key maintainer of a in-house chatbot product, contributing to a
+                multiple proof of concept that effectively improved user product
+                by increasing engagement and performance.
               </li>
               <li>
-                Collaborated with cross-functional teams to design and deploy
-                cloud-native solutions using AWS services
+                Collaborated closely with Product team during agile sprints,
+                increasing the reliability of business intelligence systems
+                through continuous improvements.
               </li>
               <li>
-                Optimized database queries resulting in a 30% improvement in
-                response time for critical API endpoints
-              </li>
-              <li>
-                Implemented comprehensive test suites achieving 90%+ code
-                coverage
-              </li>
-              <li>
-                Participated in code reviews and agile development processes
+                Enhanced Agentic Workflows to comply with specified policies
+                while maintaining code standards.
               </li>
             </ul>
           </div>
@@ -84,22 +81,19 @@ function Experience() {
             </h5>
             <div className="flex flex-wrap gap-2">
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                AWS Lambda
+                FastAPI
               </span>
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                DynamoDB
+                Python
               </span>
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                API Gateway
+                Snowflake
               </span>
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Node.js
+                Redis
               </span>
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                TypeScript
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Jest
+                Java
               </span>
             </div>
           </div>
@@ -107,33 +101,33 @@ function Experience() {
       )
     },
     {
-      title: "Jan 2023 - Apr 2023",
+      title: "Dec 2024 - June 2025",
       content: (
         <div className="bg-gradient-to-br from-gray-900 to-gray-950 rounded-xl p-6 border border-purple-500/20 shadow-xl hover:shadow-purple-500/30 transition-all duration-300 group relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-600 to-pink-500 opacity-70"></div>
           <div className="flex items-start">
             <div className="flex-shrink-0 mr-4">
-              <div className="bg-gradient-to-br from-purple-600 to-pink-500 p-3 rounded-xl shadow-lg flex items-center justify-center w-16 h-16">
+              <div className="bg-gradient-to-br from-purple-600 to-pink-500 p-3 rounded-full shadow-lg flex items-center justify-center w-16 h-16">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-                  alt="Google"
-                  className="w-10 h-10"
+                  src={graasLogo}
+                  alt="Graas"
+                  className="w-10 h-10 object-cover rounded-full"
                 />
               </div>
             </div>
             <div>
               <h3 className="text-white text-2xl font-bold mb-1 group-hover:text-purple-400 transition-colors">
-                Frontend Engineering Intern
+                Engineering Intern
               </h3>
               <h4 className="text-purple-400 text-xl mb-2">
-                Google Cloud Platform
+                Growth as a Service - Graas.ai
               </h4>
               <div className="flex flex-wrap items-center mb-4">
                 <span className="bg-purple-500/20 text-purple-400 px-3 py-1 rounded-full text-sm font-medium mr-2 mb-2">
-                  Bangalore, India
+                  Pune, MH
                 </span>
                 <span className="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium mb-2">
-                  4 months
+                  6 months
                 </span>
               </div>
             </div>
@@ -146,24 +140,24 @@ function Experience() {
             </h5>
             <ul className="text-white/70 text-base list-disc ml-5 space-y-2">
               <li>
-                Developed responsive UI components for the Google Cloud Console
-                using React and TypeScript
+                Onboarded TikTok Ads, Magento, and Shopee APIs to the ConnectV2
+                Framework, optimizing data ingestion pipelines by 25% and
+                integration with Snowflake Data Warehouse.
               </li>
               <li>
-                Implemented accessibility improvements that increased WCAG
-                compliance score by 25%
+                Contributed to optimizing the data connectV2 framework for
+                seamless integration with various marketing platforms and ad
+                channels.
               </li>
               <li>
-                Created interactive data visualization dashboards using D3.js
-                and Google Charts
+                Streamlined onboarding processes for new channels, significantly
+                reducing integration time from months to few days.
               </li>
               <li>
-                Reduced bundle size by 20% through code splitting and lazy
-                loading techniques
-              </li>
-              <li>
-                Collaborated with UX designers to implement pixel-perfect
-                interfaces based on Figma designs
+                Diagnosed and fixed bugs in the ConnectV2 Framework, improved
+                system performance, and wrote JUnit test cases with coverage
+                over 85% for multiple modules to enhance code quality and
+                stability.
               </li>
             </ul>
           </div>
@@ -177,19 +171,10 @@ function Experience() {
                 React
               </span>
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                TypeScript
+                Java
               </span>
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Material UI
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                D3.js
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Jest
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Webpack
+                API's
               </span>
             </div>
           </div>
@@ -197,33 +182,30 @@ function Experience() {
       )
     },
     {
-      title: "Jun 2022 - Dec 2022",
+      title: "Jun 2024 - Jul 2024",
       content: (
         <div className="bg-gradient-to-br from-gray-900 to-gray-950 rounded-xl p-6 border border-teal-500/20 shadow-xl hover:shadow-teal-500/30 transition-all duration-300 group relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-600 to-green-500 opacity-70"></div>
           <div className="flex items-start">
             <div className="flex-shrink-0 mr-4">
-              <div className="bg-gradient-to-br from-teal-600 to-green-500 p-3 rounded-xl shadow-lg flex items-center justify-center w-16 h-16">
+              <div className="bg-gradient-to-br from-teal-600 to-green-500 p-3 rounded-full shadow-lg flex items-center justify-center w-16 h-16">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Microsoft_Azure_Logo.svg"
-                  alt="Microsoft"
-                  className="w-10 h-10"
+                  src={ewayLogo}
+                  alt="Eway IT"
+                  className="w-10 h-10 object-cover rounded-full"
                 />
               </div>
             </div>
             <div>
               <h3 className="text-white text-2xl font-bold mb-1 group-hover:text-teal-400 transition-colors">
-                Full Stack Developer Intern
+                Trainee Intern
               </h3>
               <h4 className="text-teal-400 text-xl mb-2">
-                Microsoft Azure Team
+                Eway IT Solutions Pvt Ltd
               </h4>
               <div className="flex flex-wrap items-center mb-4">
-                <span className="bg-teal-500/20 text-teal-400 px-3 py-1 rounded-full text-sm font-medium mr-2 mb-2">
-                  Hyderabad, India
-                </span>
                 <span className="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium mb-2">
-                  6 months
+                  2 months
                 </span>
               </div>
             </div>
@@ -231,29 +213,24 @@ function Experience() {
 
           <div className="border-l-2 border-teal-500/50 pl-4 ml-2 mt-6">
             <h5 className="text-white/90 font-medium mb-3 flex items-center">
-              <FaServer className="mr-2 text-teal-400" /> Responsibilities &
-              Achievements
+              <FaServer className="mr-2 text-teal-400" /> Learnings
             </h5>
             <ul className="text-white/70 text-base list-disc ml-5 space-y-2">
               <li>
-                Developed a monitoring dashboard for Azure services using .NET
-                Core and React
+                Gained hands-on experience in modern web development
+                technologies at Eway IT Solutions Pvt. Ltd.
               </li>
               <li>
-                Implemented RESTful APIs for data retrieval and processing with
-                99.9% uptime
+                Developed responsive user interfaces using HTML, CSS,
+                JavaScript, PHP, and React.
               </li>
               <li>
-                Created automated deployment pipelines using Azure DevOps,
-                reducing deployment time by 60%
+                Improved application robustness through effective form handling
+                and input validation.
               </li>
               <li>
-                Optimized database performance by implementing efficient
-                indexing strategies
-              </li>
-              <li>
-                Participated in daily stand-ups and sprint planning meetings as
-                part of an agile team
+                Explored industry-standard tools to enhance development
+                workflows and scalability.
               </li>
             </ul>
           </div>
@@ -264,108 +241,16 @@ function Experience() {
             </h5>
             <div className="flex flex-wrap gap-2">
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                .NET Core
+                HTML
               </span>
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                C#
+                CSS
               </span>
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                React
+                Javascript
               </span>
               <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                SQL Server
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Azure DevOps
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Docker
-              </span>
-            </div>
-          </div>
-        </div>
-      )
-    },
-    {
-      title: "May 2021 - Aug 2021",
-      content: (
-        <div className="bg-gradient-to-br from-gray-900 to-gray-950 rounded-xl p-6 border border-orange-500/20 shadow-xl hover:shadow-orange-500/30 transition-all duration-300 group relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-600 to-amber-500 opacity-70"></div>
-          <div className="flex items-start">
-            <div className="flex-shrink-0 mr-4">
-              <div className="bg-gradient-to-br from-orange-600 to-amber-500 p-3 rounded-xl shadow-lg flex items-center justify-center w-16 h-16">
-                <FaMobileAlt className="text-white text-3xl" />
-              </div>
-            </div>
-            <div>
-              <h3 className="text-white text-2xl font-bold mb-1 group-hover:text-orange-400 transition-colors">
-                Mobile App Developer
-              </h3>
-              <h4 className="text-orange-400 text-xl mb-2">
-                TechInnovate Startup
-              </h4>
-              <div className="flex flex-wrap items-center mb-4">
-                <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm font-medium mr-2 mb-2">
-                  Remote
-                </span>
-                <span className="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium mb-2">
-                  3 months
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-l-2 border-orange-500/50 pl-4 ml-2 mt-6">
-            <h5 className="text-white/90 font-medium mb-3 flex items-center">
-              <FaUsers className="mr-2 text-orange-400" /> Responsibilities &
-              Achievements
-            </h5>
-            <ul className="text-white/70 text-base list-disc ml-5 space-y-2">
-              <li>
-                Developed a cross-platform mobile application using Flutter for
-                both iOS and Android
-              </li>
-              <li>
-                Implemented real-time chat functionality using Firebase Realtime
-                Database
-              </li>
-              <li>
-                Created a custom state management solution for improved
-                performance
-              </li>
-              <li>
-                Integrated third-party APIs for payment processing and location
-                services
-              </li>
-              <li>
-                Conducted user testing sessions and implemented feedback to
-                improve UX
-              </li>
-            </ul>
-          </div>
-
-          <div className="border-l-2 border-amber-500/50 pl-4 ml-2 mt-6">
-            <h5 className="text-white/90 font-medium mb-3 flex items-center">
-              <FaTools className="mr-2 text-amber-400" /> Technologies Used
-            </h5>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Flutter
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Dart
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Firebase
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                REST APIs
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Git
-              </span>
-              <span className="bg-black/50 text-white/80 px-3 py-1 rounded-full text-sm">
-                Figma
+                SQL
               </span>
             </div>
           </div>
@@ -387,7 +272,7 @@ function Experience() {
           size={0.8}
         />
       </div>
-      <motion.div 
+      <motion.div
         className="relative z-20 pt-16 pb-12"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

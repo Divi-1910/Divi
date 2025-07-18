@@ -35,7 +35,7 @@ export const EducationTimeline = ({ data }: { data: TimelineEntry[] }) => {
     <div className="w-full font-sans md:px-10" ref={containerRef}>
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-6xl md:text-5xl mb-6 text-black dark:text-white max-w-4xl font-bold bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-clip-text text-transparent animate-pulse">
-          Education Journey
+          Academic Journey
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-2xl md:text-xl max-w-screen-md leading-relaxed font-light tracking-wide">
           My{" "}

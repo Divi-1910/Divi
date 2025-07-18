@@ -38,7 +38,7 @@ function Education() {
 
           <div className="flex flex-wrap items-center mb-4 mt-2">
             <span className="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium mr-2 mb-2">
-              CGPA: 7.8/10
+              CGPA: 7.85/10
             </span>
             <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-medium mr-2 mb-2">
               Indore, Madhya Pradesh
@@ -53,30 +53,20 @@ function Education() {
               <FaCode className="mr-2 text-blue-400" /> Key Coursework
             </h5>
             <ul className="text-white/70 text-base list-disc ml-5 space-y-1">
-              <li>Data Structures & Algorithms</li>
+              <li>Data Structures</li>
+              <li>Design and Analysis of Algorithms</li>
               <li>Database Management Systems</li>
               <li>Operating Systems</li>
               <li>Computer Networks</li>
-              <li>Web Development</li>
-            </ul>
-          </div>
-
-          <div className="border-l-2 border-purple-500/50 pl-4 ml-2 mt-6">
-            <h5 className="text-white/90 font-medium mb-2 flex items-center">
-              <FaLaptopCode className="mr-2 text-purple-400" /> Achievements
-            </h5>
-            <ul className="text-white/70 text-base list-disc ml-5 space-y-1">
-              <li>Active member of the college coding club</li>
-              <li>Participated in multiple hackathons</li>
-              <li>Developed full-stack web applications</li>
-              <li>Completed advanced algorithm specialization</li>
+              <li>Discrete Mathematics</li>
+              <li>Programming Practices</li>
             </ul>
           </div>
         </div>
       )
     },
     {
-      title: "2019 - 2021",
+      title: "2018-2020",
       content: (
         <div className="bg-gradient-to-br from-gray-900 to-gray-950 rounded-xl p-6 border border-blue-500/20 shadow-xl hover:shadow-blue-500/30 transition-all duration-300 group relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-cyan-500 opacity-70"></div>
@@ -118,24 +108,11 @@ function Education() {
               <li>English</li>
             </ul>
           </div>
-
-          <div className="border-l-2 border-purple-500/50 pl-4 ml-2 mt-6">
-            <h5 className="text-white/90 font-medium mb-2 flex items-center">
-              <FaAward className="mr-2 text-purple-400" /> Activities &
-              Achievements
-            </h5>
-            <ul className="text-white/70 text-base list-disc ml-5 space-y-1">
-              <li>Participated in state-level science exhibition</li>
-              <li>Member of school's computer club</li>
-              <li>Won first prize in inter-school coding competition</li>
-              <li>Represented school in mathematics olympiad</li>
-            </ul>
-          </div>
         </div>
       )
     },
     {
-      title: "2018 - 2019",
+      title: "2018",
       content: (
         <div className="bg-gradient-to-br from-gray-900 to-gray-950 rounded-xl p-6 border border-cyan-500/20 shadow-xl hover:shadow-cyan-500/30 transition-all duration-300 group relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-600 to-teal-500 opacity-70"></div>
@@ -165,15 +142,16 @@ function Education() {
             </span>
           </div>
 
-          <div className="border-l-2 border-teal-500/50 pl-4 ml-2 mt-6">
+          <div className="border-l-2 border-blue-500/50 pl-4 ml-2 mt-6">
             <h5 className="text-white/90 font-medium mb-2 flex items-center">
-              <FaMedal className="mr-2 text-teal-400" /> Achievements
+              <FaChalkboardTeacher className="mr-2 text-blue-400" /> Subjects
             </h5>
             <ul className="text-white/70 text-base list-disc ml-5 space-y-1">
-              <li>School topper in Mathematics and Science</li>
-              <li>Active participant in school's computer club</li>
-              <li>Developed interest in programming and technology</li>
-              <li>Participated in regional science fair</li>
+              <li>Science</li>
+              <li>Mathematics</li>
+              <li>Social Science</li>
+              <li>Hindi</li>
+              <li>English</li>
             </ul>
           </div>
         </div>
@@ -194,7 +172,7 @@ function Education() {
           size={0.8}
         />
       </div>
-      <motion.div 
+      <motion.div
         className="relative z-20 pt-16 pb-12"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
