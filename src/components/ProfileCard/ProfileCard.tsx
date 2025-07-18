@@ -222,11 +222,6 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
               }}
             />
           </div>
-          <div className="pc-content">
-            <div className="pc-details">
-              <h3>Divyansh Muley</h3>
-            </div>
-          </div>
         </div>
       </section>
     </div>
