@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { lazy, Suspense } from "react";
 import Navbar from "./components/Navbar";
@@ -35,7 +35,7 @@ const AnimatedRoutes = () => {
 };
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Preload />
     <SplashCursor />
     <CustomCursor />
@@ -43,7 +43,7 @@ const App = () => (
       <Navbar />
       <AnimatedRoutes />
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
