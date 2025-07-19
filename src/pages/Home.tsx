@@ -54,7 +54,7 @@ const Home: React.FC = () => {
               View Projects
             </a>
             <a
-              href="/contact"
+              href="/profiles"
               className="bg-gradient-to-r from-gray-800 to-gray-900 text-white px-6 py-3 rounded-lg hover:from-gray-900 hover:to-gray-950 transition shadow-[0_4px_12px_rgba(0,0,0,0.5)] hover:scale-105"
             >
               Contact Me
