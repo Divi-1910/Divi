@@ -1,4 +1,4 @@
-import{j as H,m as Te}from"./framer-motion-860f202b.js";import{r as O}from"./react-vendor-efb55fc6.js";import{R as _e,T as Ge,C as he,P as Fe,M as Ne}from"./three-lib-b6c94a0f.js";const Oe=`#version 300 es
+import{j as H,m as Te}from"./framer-motion-66bad03f.js";import{r as O}from"./react-vendor-6d1a4a52.js";import{R as _e,T as Ge,C as he,P as Fe,M as Ne}from"./three-lib-b6c94a0f.js";const Oe=`#version 300 es
 in vec2 position;
 void main() {
   gl_Position = vec4(position, 0.0, 1.0);
