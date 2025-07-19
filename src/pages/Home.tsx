@@ -48,13 +48,13 @@ const Home: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-6">
             <a
-              href="/#/projects"
+              href="/Divi/#/projects"
               className="bg-gradient-to-r from-teal-500 to-purple-600 text-white px-6 py-3 rounded-lg hover:from-teal-600 hover:to-purple-700 transition shadow-[0_4px_12px_rgba(16,185,129,0.5)] hover:scale-105"
             >
               View Projects
             </a>
             <a
-              href="/#/profiles"
+              href="/Divi/#/profiles"
               className="bg-gradient-to-r from-gray-800 to-gray-900 text-white px-6 py-3 rounded-lg hover:from-gray-900 hover:to-gray-950 transition shadow-[0_4px_12px_rgba(0,0,0,0.5)] hover:scale-105"
             >
               Contact Me
