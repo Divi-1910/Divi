@@ -35,7 +35,7 @@ const AnimatedRoutes = () => {
 };
 
 const App = () => (
-  <HashRouter basename="/Divi">
+  <HashRouter>
     <Preload />
     <SplashCursor />
     <CustomCursor />
