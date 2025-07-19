@@ -35,7 +35,7 @@ const AnimatedRoutes = () => {
 };
 
 const App = () => (
-  <HashRouter>
+  <HashRouter basename="/">
     <Preload />
     <SplashCursor />
     <CustomCursor />
