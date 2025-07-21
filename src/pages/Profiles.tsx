@@ -1,4 +1,3 @@
-// React component
 import Aurora from "../components/Aurora";
 import { Meteors } from "../components/Meteors";
 import Lightning from "../components/Lighting";
@@ -11,23 +10,13 @@ function Profiles() {
     <div className="min-h-screen w-full bg-black font-sans relative m-0 p-0">
       <Aurora />
       <Meteors number={20} className="z-10" />
-      <div className="absolute inset-0 z-10" style={{ opacity: 0.4 }}>
-        <Lightning
-          hue={300}
-          xOffset={0}
-          speed={0.7}
-          intensity={0.6}
-          size={0.8}
-        />
-      </div>
-
-      <motion.div 
+      <motion.div
         className="relative z-20 min-h-screen flex flex-col items-center justify-center px-4 py-12"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <motion.h1 
+        <motion.h1
           className="text-5xl md:text-6xl font-bold text-white mb-6 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 bg-clip-text text-transparent animate-pulse"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -36,7 +25,7 @@ function Profiles() {
           My Profiles
         </motion.h1>
 
-        <motion.p 
+        <motion.p
           className="text-xl text-white/80 mb-16 max-w-2xl text-center"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -45,7 +34,7 @@ function Profiles() {
           Explore my professional journey and connect with me across platforms
         </motion.p>
 
-        <motion.div 
+        <motion.div
           className="flex flex-wrap justify-center gap-12 md:gap-16 lg:gap-24 mt-8 max-w-7xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -54,7 +43,7 @@ function Profiles() {
           {/* LinkedIn Profile */}
           <div className="w-64 h-64 transform hover:scale-105 transition-transform duration-300">
             <PinContainer
-              title="LinkedIn"
+              title="divyansh-muley"
               href="https://www.linkedin.com/in/divyansh-muley/"
             >
               <div className="flex flex-col items-center justify-center w-[300px] h-[300px] p-4 bg-gradient-to-br from-blue-900/90 to-blue-950/90 rounded-2xl relative overflow-hidden group">
@@ -73,7 +62,7 @@ function Profiles() {
 
           {/* GitHub Profile */}
           <div className="w-64 h-64 transform hover:scale-105 transition-transform duration-300">
-            <PinContainer title="GitHub" href="https://github.com/Divi-1910">
+            <PinContainer title="Divi-1910" href="https://github.com/Divi-1910">
               <div className="flex flex-col items-center justify-center w-[300px] h-[300px] p-4 bg-gradient-to-br from-gray-900/90 to-gray-950/90 rounded-2xl relative overflow-hidden group">
                 <div className="absolute inset-0 bg-gradient-to-r from-gray-600/0 via-gray-600/30 to-gray-600/0 opacity-0 group-hover:opacity-100 transform translate-x-full group-hover:translate-x-[-200%] transition-all duration-1500 ease-in-out"></div>
                 <FaGithub className="text-white text-7xl mb-4" />
@@ -91,7 +80,7 @@ function Profiles() {
           {/* LeetCode Profile */}
           <div className="w-64 h-64 transform hover:scale-105 transition-transform duration-300">
             <PinContainer
-              title="LeetCode"
+              title="divyansh1910"
               href="https://leetcode.com/u/divyansh1910/"
             >
               <div className="flex flex-col items-center justify-center w-[300px] h-[300px] p-4 bg-gradient-to-br from-orange-900/90 to-orange-950/90 rounded-2xl relative overflow-hidden group">
@@ -109,7 +98,7 @@ function Profiles() {
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="mt-24 mb-8 relative"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

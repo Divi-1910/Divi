@@ -6,12 +6,7 @@ import { ExperienceTimeline } from "../components/ExperienceTimeline";
 import { motion } from "framer-motion";
 import graasLogo from "../assets/graas_ai_logo.jpeg";
 import ewayLogo from "../assets/eway_it_icon.jpeg";
-import {
-  FaCode,
-  FaLaptopCode,
-  FaServer,
-  FaTools
-} from "react-icons/fa";
+import { FaCode, FaLaptopCode, FaServer, FaTools } from "react-icons/fa";
 
 function Experience() {
   const ExperienceTimelineData = [
@@ -259,15 +254,7 @@ function Experience() {
     <div className="min-h-screen w-full bg-black font-sans relative m-0 p-0">
       <Aurora />
       <Meteors number={20} className="z-10" />
-      <div className="absolute inset-0 z-10" style={{ opacity: 0.4 }}>
-        <Lightning
-          hue={120}
-          xOffset={0}
-          speed={0.7}
-          intensity={0.6}
-          size={0.8}
-        />
-      </div>
+
       <motion.div
         className="relative z-20 pt-16 pb-12"
         initial={{ opacity: 0, y: 20 }}

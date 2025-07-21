@@ -12,9 +12,7 @@ const Home: React.FC = () => {
     <div className="min-h-screen w-full bg-black font-sans relative m-0 p-0">
       <Aurora />
       <Meteors number={20} className="z-10" />
-      <div className="absolute inset-0 z-10" style={{ opacity: 0.4 }}>
-        <Lightning hue={0} xOffset={0} speed={0.7} intensity={0.6} size={0.8} />
-      </div>
+
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

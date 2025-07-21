@@ -39,9 +39,7 @@ const slugs = [
 ];
 
 function Skills() {
-  const images = slugs.map(
-    (slug) => `https://cdn.simpleicons.org/${slug}`
-  );
+  const images = slugs.map((slug) => `https://cdn.simpleicons.org/${slug}`);
 
   const skills = {
     SKILLS: [
@@ -87,22 +85,13 @@ function Skills() {
         <Aurora />
         <Meteors number={20} className="z-10" />
       </div>
-      <div className="fixed inset-0 z-10" style={{ opacity: 0.4 }}>
-        <Lightning
-          hue={240}
-          xOffset={0}
-          speed={0.7}
-          intensity={0.6}
-          size={0.8}
-        />
-      </div>
-      <motion.div 
+      <motion.div
         className="relative z-20 flex flex-col md:flex-row h-screen overflow-y-auto"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <motion.div 
+        <motion.div
           className="w-full md:w-1/2 flex items-center justify-center py-8 md:py-0"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -112,7 +101,7 @@ function Skills() {
             <IconCloud images={images} />
           </div>
         </motion.div>
-        <motion.div 
+        <motion.div
           className="w-full md:w-1/2 p-4 md:p-8 flex flex-col justify-center"
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}

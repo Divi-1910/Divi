@@ -97,15 +97,6 @@ function Projects() {
         <Aurora />
         <Meteors number={20} className="z-10" />
       </div>
-      <div className="fixed inset-0 z-10" style={{ opacity: 0.4 }}>
-        <Lightning
-          hue={180}
-          xOffset={0}
-          speed={0.7}
-          intensity={0.6}
-          size={0.8}
-        />
-      </div>
       <motion.div
         className="relative z-20 container mx-auto p-8 min-h-screen"
         initial={{ opacity: 0, y: 20 }}

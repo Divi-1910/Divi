@@ -1,7 +1,6 @@
 // React component
 import Aurora from "../components/Aurora";
 import { Meteors } from "../components/Meteors";
-import Lightning from "../components/Lighting";
 import { EducationTimeline } from "../components/EducationTimeline";
 import { motion } from "framer-motion";
 import {
@@ -160,15 +159,6 @@ function Education() {
     <div className="min-h-screen w-full bg-black font-sans relative m-0 p-0">
       <Aurora />
       <Meteors number={60} className="z-10" />
-      <div className="absolute inset-0 z-10" style={{ opacity: 0.4 }}>
-        <Lightning
-          hue={280}
-          xOffset={0}
-          speed={0.4}
-          intensity={0.6}
-          size={0.8}
-        />
-      </div>
       <motion.div
         className="relative z-20 pt-16 pb-12"
         initial={{ opacity: 0, y: 20 }}
